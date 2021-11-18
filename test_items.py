@@ -7,7 +7,7 @@ def test_find_element_button_add_to_basket(browser):
     isset_button = form_basket.find_element_by_css_selector('[type="submit"]')
 
     #Чтобы успеть убедиться, что язык верный
-    time.sleep(3)
+    time.sleep(30)
 
     #Если кнопка существует, то тест будет отмечен как PASSED
     assert isset_button
