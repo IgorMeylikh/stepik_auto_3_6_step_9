@@ -10,5 +10,5 @@ def test_find_element_button_add_to_basket(browser):
     time.sleep(30)
 
     #Если кнопка существует, то тест будет отмечен как PASSED
-    assert isset_button
+    assert isset_button, 'Button not found'
    
